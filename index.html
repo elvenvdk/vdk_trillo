@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,8 +12,34 @@
         <title>trillo &mdash; Your all-in-one booking app</title>
     </head>
     <body>
-        <div>
-            Trillo Bitch!!
+        <div class="container">
+          <header class="header">
+            <img src="img/logo.png" alt="trillo logo" class="logo">
+            <form action="#" class="search">
+              <input type="text" class="search__input" placeholder="Search hotels">
+              <button class="search__button">
+                <svg class="search__icon">
+                  <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+              </button>
+            </form>
+            <nav class="user-nav">
+              <div class="user-nav__nav__box">
+                <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+              </div>
+              <div class="user-nav__nav__box">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </div>
+            </nav>
+          </header>
+          <div class="content">
+            <nav class="sidebar">
+              Navigation
+            </nav>
+            <main class="hotel-view">
+              Hotel view
+            </main>
+          </div>
         </div>
     </body>
 </html>
